@@ -22,6 +22,7 @@ model Service {
   name                  String
   type                  String
   supplierRate          Float
+  markup                Float    @default(0)
   min                   Int
   max                   Int
   refillSupported       Boolean  @default(false)
